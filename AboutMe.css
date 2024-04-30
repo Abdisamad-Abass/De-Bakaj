@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(C:/Users/USED/Desktop/portfolio/channel-pictures/backimage.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px red;
+    overflow: hidden;
+    margin-top: 100px;
+    padding: 2px;
+    flex-wrap: wrap;
+    margin: 40px;
+    position: absolute;
+    
+}
+.card1{
+    width: 400px;
+    border: 2px solid #787878;
+    box-shadow: 0px 2px 4px rgba(1, 0, 0,);
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: blue;
+
+}
+.card1 h1{
+    background-color: aqua;
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+.card1 p{
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.card2{
+    width: 400px;
+    border: 2px solid brown;
+    background-color: blueviolet;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px;
+}
+.card2 h1{
+    background-color: aqua;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+}
+.card2 p{
+    margin: 27px;
+    padding: 9px;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+.card3{
+    width: 500px;
+    border: 2px solid brown;
+    background-color: red;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card3 h1{
+    background-color: aqua;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+}
+.card3 p{
+    margin: 20px;
+    padding: 9px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.card3 ul li{
+    margin: 20px;
+    padding: 0px 15px;
+    list-style: decimal;
+}
+.card4{
+    width: 500px;
+    border: 2px solid brown;
+    background-color: green;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px;
+}
+.card4 h1{
+    background-color: aqua;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+}
+.card4 p{
+    margin: 20px;
+    padding: 9px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.card5{
+    width: 500px;
+    border: 2px solid brown;
+    background-color: yellow;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.card5 h1{
+    background-color: aqua;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+}
+.card5 p{
+    margin: 20px;
+    padding: 9px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
